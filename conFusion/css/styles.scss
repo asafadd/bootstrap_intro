@@ -55,6 +55,10 @@ body{
     padding: 10px;
 }
 
+.modal-content {
+    background-color: $background-pale;
+}
+
 // nesting
 .carousel {
     background:$background-dark;
@@ -75,4 +79,12 @@ body{
     position: absolute;
     bottom: 0px;
     z-index: 1;
+}
+
+.modal-header {
+    background-color: $background-dark;
+    color: floralwhite;
+    .close {
+        color: floralwhite;
+    }
 }
